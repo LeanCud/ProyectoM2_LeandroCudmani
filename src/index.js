@@ -1,10 +1,10 @@
-import "dotenv/config";
+
 import app from "./app.js";
 
-const PORT = 3000;
+const PORT = 8080;
 
 
 
 app.listen(PORT, () => {
-  console.log(`Server express on http://localhost:${PORT}`);
+  console.log(`Servidor Express en http://localhost:${PORT}`);
 });
