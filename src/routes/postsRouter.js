@@ -1,12 +1,13 @@
 import { Router } from "express";
+import { createPost, getAllPosts, getPostById } from "../controllers/postsControllers.js";
 
 
 const postsRouter = Router();
 
-// postsRouter.get("/", );
-// postsRouter.get("/:id", );
+postsRouter.get("/", getAllPosts);
+postsRouter.get("/:id", getPostById);
 // postsRouter.get("/") GET /posts/author/:authorId
-// postsRouter.post("/", );
+postsRouter.post("/", createPost);
 // postsRouter.update("/id:", );
 // postsRouter.delete("/id:", );
 
