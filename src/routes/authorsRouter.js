@@ -1,12 +1,12 @@
 import { Router } from "express";
-import { createAuthor, getAllAuthors, getAuthorById } from "../controllers/authorsControllers.js";
+import { createAuthor, deleteAuthor, getAllAuthors, getAuthorById, updateAuthor } from "../controllers/authorsControllers.js";
 
 const authorsRouter = Router();
 
 authorsRouter.get("/", getAllAuthors);
 authorsRouter.get("/:id", getAuthorById);
 authorsRouter.post("/", createAuthor);
-// authorsRouter.put("/:id");
-// authorsRouter.delete("/:id");
+authorsRouter.put("/:id", updateAuthor);
+authorsRouter.delete("/:id", deleteAuthor);
 
 export default authorsRouter;

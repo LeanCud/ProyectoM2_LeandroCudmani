@@ -82,3 +82,24 @@ export const updateAuthor = async (req, res) => {
   }
 };
 
+export const deleteAuthor = async (req, res) => {
+  try {
+    const { id } = req.params
+
+    const result = await pool.query (`DELETE FROM authors WHERE id = $1 RETURNING *`, [id]);
+
+    if (result.rows.length === 0) {
+      return res.status(404).json({error: "Autor no encontrado"});
+    }
+
+    res.status(200).json({
+      message: "Autor Eliminado Correctamente",
+      author: result.rows[0],
+    });
+  } catch (error) {
+    console.error("Error Eliminando Autor", error);
+
+    res.status(500).json({error: "Error Eliminando Autor"});
+  }
+};
+
