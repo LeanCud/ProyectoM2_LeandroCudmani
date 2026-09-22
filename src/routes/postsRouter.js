@@ -9,7 +9,7 @@ postsRouter.get("/", getAllPosts);
 postsRouter.get("/:id", validateId, getPostById);
 // postsRouter.get("/") GET /posts/author/:authorId
 postsRouter.post("/", validatePost, createPost);
-postsRouter.put("/:id", validateId, validateId ,updatePost);
-postsRouter.delete("/:id", deletePost);
+postsRouter.put("/:id", validateId, validatePost, updatePost);
+postsRouter.delete("/:id", validateId, deletePost);
 
 export default postsRouter;

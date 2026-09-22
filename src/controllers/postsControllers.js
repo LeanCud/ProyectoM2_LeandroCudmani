@@ -84,7 +84,7 @@ export const deletePost = async (req, res) => {
     }
 
     res.status(200).json({
-      message: "Autor Eliminado Correctamente",
+      message: "Posts eliminado correctamente",
       post: result.rows[0]
     });
 
