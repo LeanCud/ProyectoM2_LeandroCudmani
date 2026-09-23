@@ -158,12 +158,28 @@ Desde Swagger UI se pueden consultar los endpoints y probar las operaciones de l
 
 ## Registro de uso de IA
 
-- [Prompt1](<prompt 1-1.png>)
-- [Respuesta](respuesta1.1.png)
-- [Respuesta](respuesta1.2.png)
+### PROMPT 1
 
-- [Prompt2](<prompt 2.png>)
-- [Respuesta](respuesta2.png)
+- [Prompt1](<src/docs/ai/prompt 1.png>)
 
-- [Prompt3](Prompt3.png)
-- [Respuesta](respuesta3.png)
+## RESPUESTAS
+
+- [Respuesta](src/docs/ai/respuesta1.1.png)
+
+- [Respuesta](src/docs/ai/respuesta1.2.png)
+
+### PROMPT 2
+
+- [Prompt2](<src/docs/ai/prompt 2.png>)
+
+## RESPUESTA
+
+- [Respuesta2](src/docs/ai/respuesta2.png)
+
+### PROMPT 3
+
+- [Prompt3](src/docs/ai/Prompt3.png)
+
+## RESPUESTA
+
+- [Respuesta](src/docs/ai/respuesta3.png)
