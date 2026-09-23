@@ -154,3 +154,16 @@ Desde Swagger UI se pueden consultar los endpoints y probar las operaciones de l
 ## Repositorio
 
 [Ver repositorio en GitHub](https://github.com/LeanCud/ProyectoM2_LeandroCudmani)
+
+
+## Registro de uso de IA
+
+- [Prompt1](<prompt 1-1.png>)
+- [Respuesta](respuesta1.1.png)
+- [Respuesta](respuesta1.2.png)
+
+- [Prompt2](<prompt 2.png>)
+- [Respuesta](respuesta2.png)
+
+- [Prompt3](Prompt3.png)
+- [Respuesta](respuesta3.png)
