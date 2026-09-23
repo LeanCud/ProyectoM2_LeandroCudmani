@@ -10,6 +10,8 @@ info:
 servers:
   - url: http://localhost:8080
     description: Desarrollo local
+  - url: https://proyectom2leandrocudmani-production.up.railway.app
+    description: Produccion
 
 paths:
   /authors:

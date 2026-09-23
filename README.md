@@ -1,5 +1,7 @@
 # Blog API
 
+https://proyectom2leandrocudmani-production.up.railway.app/api-docs/
+
 API REST desarrollada con Node.js, Express y PostgreSQL para gestionar autores y publicaciones de un blog.
 
 La API permite crear, consultar, actualizar y eliminar autores y posts. También incluye documentación interactiva mediante Swagger UI.
